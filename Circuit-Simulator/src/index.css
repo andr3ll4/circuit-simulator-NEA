@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.SignUp, .LogIn{
+  border: 3px solid #3e3b3e;
+  border-radius: 2px;
+  text-align: center;
+  background-color: #252325;
+  color: rgb(198, 193, 193);
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 250px;
+  max-height: 500px;
+  box-shadow: 0px 0px 10px 0px #3e3b3e;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.SignUp form input, .LogIn form input{
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  color: #252325;
+}
+
+.SignUp form, .LogIn form{
+  border-radius: 2px;
+  text-align: center;
+  background-color: #252325;
+  color: rgb(198, 193, 193);
+  padding: 20px;  
+  font-family: 'Courier New', Courier, monospace;
+}
+.App{
+  background-color: #2f2c2f;
+  overflow: visible;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+.MainNavBar ul{
+  background-color:#252325 ;
+  color: rgb(198, 193, 193);
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: none;
+  overflow: hidden;
+}
+.MainNavBar a{
+  display: block;
+  padding: 15px;
+  color: rgb(198, 193, 193);
+  text-decoration: none;
+}
+.MainNavBar li{
+  float: right;
+}
+.MainNavBar li a:hover{
+  background-color: #3e3b3e;
+} 
+@font-face {
+  font-family: logoFont;
+  src: url("assets/Minercraftory.ttf") format("truetype");
+}
+.MainNavBar h1{
+  font-family: logoFont;
+  color: rgb(185, 177, 189);
+  font-size: 28px;
+  float: left;
+  padding-left: 10px;
+}
+.SignUp a, .LogIn a{
+  color: rgb(198, 193, 198);
+  text-decoration: none;
+  font-weight: bold;
+}
+.SignUp a:hover, .LogIn a:hover{
+  text-decoration: underline;
+}
